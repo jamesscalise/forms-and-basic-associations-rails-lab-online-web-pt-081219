@@ -12,6 +12,8 @@ class Song < ActiveRecord::Base
   end
   
  def note_ids=(ids)
-  
+  ids.each do |id|
+    
+  end
  end
 end
